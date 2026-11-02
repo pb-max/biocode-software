@@ -1,0 +1,40 @@
+{"instruction": "用一句话解释给定抗体相关术语。", "input": "什么是 CDR？", "output": "CDR（互补决定区）是抗体可变区中直接决定抗原结合特异性的超变环区，通常轻链有 CDR1–3，重链有 CDR1–3。"}
+{"instruction": "用一句话解释给定抗体相关术语。", "input": "什么是 Fc？", "output": "Fc 是抗体的可结晶片段，主要介导效应功能（如 ADCC、补体激活）并影响半衰期，不含抗原结合部位。"}
+{"instruction": "用一句话解释给定抗体相关术语。", "input": "什么是 scFv？", "output": "scFv（单链可变片段）是用短接头把 VH 与 VL 连成一条链的最小抗原结合单元，常用于工程化抗体与 CAR 构建。"}
+{"instruction": "用一句话解释给定抗体相关术语。", "input": "什么是人源化抗体？", "output": "人源化抗体是把鼠源等异种抗体的 CDR 移植到人抗体框架上，以降低免疫原性同时尽量保留亲和力。"}
+{"instruction": "判断描述是否合理，只答「合理」或「不合理」并给一句理由。", "input": "IgG1 的 Fc 可以参与 ADCC。", "output": "合理。人 IgG1 的 Fc 可结合 FcγR 并介导 ADCC 等效应功能。"}
+{"instruction": "判断描述是否合理，只答「合理」或「不合理」并给一句理由。", "input": "抗体轻链决定全部抗原特异性，重链无关。", "output": "不合理。抗原结合由重链与轻链的 CDR 共同决定，重链往往贡献更大但并非无关。"}
+{"instruction": "判断描述是否合理，只答「合理」或「不合理」并给一句理由。", "input": "亲和力成熟通常发生在生发中心，并通过体细胞高频突变实现。", "output": "合理。生发中心 B 细胞经体细胞高频突变与选择，可提高对抗原的亲和力。"}
+{"instruction": "根据靶点给出常见药物类型提示（教学用，非处方建议）。", "input": "靶点：PD-1", "output": "常见为免疫检查点抑制剂类单抗（如抗 PD-1），用于释放 T 细胞抗肿瘤活性；具体适应症与方案需遵循说明书与指南。"}
+{"instruction": "根据靶点给出常见药物类型提示（教学用，非处方建议）。", "input": "靶点：HER2", "output": "常见为抗 HER2 单抗或 ADC（抗体偶联药物），用于 HER2 阳性肿瘤；需结合检测确认表达/扩增状态。"}
+{"instruction": "根据靶点给出常见药物类型提示（教学用，非处方建议）。", "input": "靶点：CD20", "output": "常见为抗 CD20 单抗，用于 B 细胞相关血液肿瘤或自身免疫病；可耗竭 CD20+ B 细胞。"}
+{"instruction": "把口语问题改写成可用于文献检索的关键词（英文，逗号分隔）。", "input": "想找抗 PD-L1 抗体在非小细胞肺癌里的临床试验", "output": "PD-L1, monoclonal antibody, NSCLC, clinical trial, immune checkpoint"}
+{"instruction": "把口语问题改写成可用于文献检索的关键词（英文，逗号分隔）。", "input": "抗体药的免疫原性怎么评估", "output": "immunogenicity, anti-drug antibody, ADA, monoclonal antibody, assay"}
+{"instruction": "根据给定信息，用固定格式输出。", "input": "名称：曲妥珠单抗；靶点：HER2；类型：人源化 IgG1", "output": "Drug: 曲妥珠单抗 | Target: HER2 | Format: 人源化 IgG1"}
+{"instruction": "根据给定信息，用固定格式输出。", "input": "名称：利妥昔单抗；靶点：CD20；类型：嵌合 IgG1", "output": "Drug: 利妥昔单抗 | Target: CD20 | Format: 嵌合 IgG1"}
+{"instruction": "解释实验读数时的注意点（一句话）。", "input": "ELISA 测血清抗药抗体 ADA 阳性", "output": "ADA 阳性提示可能存在抗药抗体，需结合滴度、中和活性与药代/疗效综合解读，单次阳性不等于必须停药。"}
+{"instruction": "解释实验读数时的注意点（一句话）。", "input": "SPR 测得 KD 变小", "output": "在相同条件下 KD 变小通常表示结合更紧（亲和力更高），但仍需确认模型拟合与批次对照。"}
+{"instruction": "从短文本中抽取靶点名称，只输出靶点符号。", "input": "该候选抗体识别人表皮生长因子受体 2（HER2）胞外区。", "output": "HER2"}
+{"instruction": "从短文本中抽取靶点名称，只输出靶点符号。", "input": "分子结合程序性死亡受体 1（PD-1）并阻断其与配体相互作用。", "output": "PD-1"}
+{"instruction": "用初学者能懂的话解释生物类似药与原研抗体的关系。", "input": "什么是生物类似药？", "output": "生物类似药是在质量、安全性和有效性上与已获批原研生物药高度相似的产品，因生物药制造复杂性，它不是化学仿制药意义上的完全等同物。"}
+{"instruction": "用初学者能懂的话解释 ADC。", "input": "ADC 是什么？", "output": "ADC（抗体偶联药物）是把细胞毒性小分子通过接头连接到单抗上，利用抗体把毒素带到靶细胞再释放，以提高选择性。"}
+{"instruction": "回答时保持简洁，并声明非医疗建议。", "input": "抗 TNF 抗体可以自己停药吗？", "output": "不能自行停药。是否调整抗 TNF 治疗必须由临床医生根据病情与监测结果决定。本回答仅供科普，非医疗建议。"}
+{"instruction": "比较两个概念，各用半句话。", "input": "亲和力 vs 亲和力成熟", "output": "亲和力指抗体与抗原结合强弱；亲和力成熟指免疫应答中通过突变与选择使亲和力逐步提高的过程。"}
+{"instruction": "比较两个概念，各用半句话。", "input": "嵌合抗体 vs 人源化抗体", "output": "嵌合抗体保留鼠源可变区、人源恒定区；人源化则进一步把 CDR 放到人源框架上，人源成分通常更高。"}
+{"instruction": "给出 PhIP-seq / 肽芯片场景下的一句解释。", "input": "什么是富集因子 EF？", "output": "在 PhIP-seq 等场景中，EF（enrichment factor）常用来衡量某肽相对背景的富集程度，EF 越高通常表示该肽被血清抗体更强地拉下/富集。"}
+{"instruction": "给出 PhIP-seq / 肽芯片场景下的一句解释。", "input": "为什么要用病例-对照比较肽段阳性率？", "output": "比较病例与对照的阳性率有助于识别与疾病状态相关的差异肽/表位反应，而不是仅看绝对信号高低。"}
+{"instruction": "把用户需求映射到分析步骤（教学）。", "input": "我想从 pep_sig 里挑差异上调肽做后续机器学习", "output": "先按 Regulation=Up（及 p/FDR/LogFC 阈值）过滤 pep_sig，再用 Peptide_ID 从表达矩阵取子集，最后才进入共线性处理与模型筛选。"}
+{"instruction": "把用户需求映射到分析步骤（教学）。", "input": "GO/KEGG 富集该用上调还是下调肽？", "output": "应按生物学问题分别对 Up 与 Down 候选集做富集；混在一起会稀释方向相反的信号，并难解释通路方向。"}
+{"instruction": "纠正常见误解。", "input": "只要 p<0.05 的肽就一定是生物标志物。", "output": "不正确。统计显著只是筛选起点，还需效应量、重复验证、多重校正、独立队列与生物学可解释性。"}
+{"instruction": "纠正常见误解。", "input": "抗体药物都是 IgG。", "output": "不正确。治疗性抗体以 IgG 为主，但也存在其他同种型或片段形式（如 Fab、scFv、双抗等工程化形式）。"}
+{"instruction": "用条目列出回答（最多 3 条）。", "input": "做治疗性抗体早期研发常见关注点？", "output": "1) 靶点与表位是否合适；2) 亲和力/特异性与种属交叉；3) 可开发性（表达、稳定性、免疫原性风险）。"}
+{"instruction": "用条目列出回答（最多 3 条）。", "input": "解读差异肽结果时要注意什么？", "output": "1) 区分统计显著与效应大小；2) 检查对照背景与批次；3) 用正交实验或独立样本验证后再下结论。"}
+{"instruction": "给出安全边界声明。", "input": "根据序列设计一个临床用药方案", "output": "我不能根据序列给出临床用药方案。药物选择与剂量必须由具备资质的医生依据适应症、指南与个体评估决定；我只能提供一般性科研背景信息。"}
+{"instruction": "术语英译（只输出英文术语）。", "input": "抗体偶联药物", "output": "antibody-drug conjugate"}
+{"instruction": "术语英译（只输出英文术语）。", "input": "互补决定区", "output": "complementarity-determining region"}
+{"instruction": "术语中译（只输出中文）。", "input": "immunogenicity", "output": "免疫原性"}
+{"instruction": "术语中译（只输出中文）。", "input": "epitope", "output": "表位"}
+{"instruction": "根据情景选择更合适的实验（一词或短短语）。", "input": "要定量抗体-抗原结合动力学（ka/kd/KD）", "output": "SPR 或 BLI"}
+{"instruction": "根据情景选择更合适的实验（一词或短短语）。", "input": "要看血清中是否存在抗药抗体", "output": "ADA ELISA/桥接免疫测定"}
+{"instruction": "简短回答：该字段在差异肽表里通常代表什么。", "input": "pep_sig 中的 Regulation=Up", "output": "通常表示该肽在病例相对对照方向上调（结合显著性规则标注），具体阈值以分析流水线定义为准。"}
+{"instruction": "简短回答：该字段在差异肽表里通常代表什么。", "input": "LogFC", "output": "对数折变（log fold change），用于度量两组间丰度/富集差异的方向与幅度。"}

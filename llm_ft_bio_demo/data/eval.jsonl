@@ -1,0 +1,8 @@
+{"instruction": "用一句话解释给定抗体相关术语。", "input": "什么是 CDR？", "output": "CDR（互补决定区）是抗体可变区中直接决定抗原结合特异性的超变环区。"}
+{"instruction": "根据靶点给出常见药物类型提示（教学用，非处方建议）。", "input": "靶点：HER2", "output": "常见为抗 HER2 单抗或 ADC。"}
+{"instruction": "从短文本中抽取靶点名称，只输出靶点符号。", "input": "该抗体靶向细胞毒性 T 淋巴细胞相关蛋白 4（CTLA-4）。", "output": "CTLA-4"}
+{"instruction": "把口语问题改写成可用于文献检索的关键词（英文，逗号分隔）。", "input": "想了解 ADC 的接头稳定性", "output": "ADC, linker stability, antibody-drug conjugate, payload"}
+{"instruction": "纠正常见误解。", "input": "p 值越小生物意义一定越大。", "output": "不正确。p 值反映统计证据强度，生物意义还需看效应量与可重复性。"}
+{"instruction": "给出 PhIP-seq / 肽芯片场景下的一句解释。", "input": "为什么要做病例对照的差异肽筛选？", "output": "为了找出与疾病状态相关、而非仅在所有人中普遍出现的抗体反应肽。"}
+{"instruction": "术语英译（只输出英文术语）。", "input": "人源化抗体", "output": "humanized antibody"}
+{"instruction": "根据给定信息，用固定格式输出。", "input": "名称：帕博利珠单抗；靶点：PD-1；类型：人源化 IgG4", "output": "Drug: 帕博利珠单抗 | Target: PD-1 | Format: 人源化 IgG4"}
